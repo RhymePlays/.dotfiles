@@ -7,8 +7,14 @@
 |   1 | mpv           | /.config/mpv/*  |
 
 ## Linux Installation
-- git ``
-- mpv ``
+If installing on **Debian**
+0. Make sure the .dotfiles folder resides in your home directory.
+1. Open `/etc/apt/sources.list`
+2. Add `contrib` `non-free` after `deb http://deb.debian.org/debian/ <version-codename> main`
+3. It should look similar to this `deb http://deb.debian.org/debian/ bullseye main contrib non-free`
+4. Save the file.
+6. Run `sudo apt update` as root
+5. Run `sudo installDebian.sh` as root
 
 ## Windows Installation
 - git `mklink "<user-directory>\.gitconfig" ".dotfiles\.gitconfig"`
