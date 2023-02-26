@@ -44,4 +44,4 @@ sudo snap install btop
 
 
 # Link .configs
-sh ~/.dotfiles/linuxSymlink.sh
+#sh ~/.dotfiles/linuxSymlink.sh

@@ -1,8 +1,12 @@
+###
+### DONT RUN WITH SUDO!!
+###
+
 # Link .gitconfig
-sudo ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+sudo ln ~/.dotfiles/.gitconfig ~/.gitconfig
 
 # Link .xinitrc
-sudo ln -s ~/.dotfiles/.xinitrc ~/.xinitrc
+sudo ln ~/.dotfiles/.xinitrc ~/.xinitrc
 
 # Link bspwm config
 sudo ln -s ~/.dotfiles/.config/bspwm ~/.config/bspwm
@@ -17,7 +21,7 @@ sudo ln -s ~/.dotfiles/.config/polybar ~/.config/polybar
 sudo ln -s ~/.dotfiles/.config/rofi ~/.config/rofi
 
 # Link Greenclip-Rofi
-sudo ln -s ~/.dotfiles/.config/greenclip.toml ~/.config/greenclip.toml
+#sudo ln ~/.dotfiles/.config/greenclip.toml ~/.config/greenclip.toml
 
 # Link neovim config
 
