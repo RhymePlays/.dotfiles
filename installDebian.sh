@@ -25,6 +25,9 @@ sudo apt install mpv
 # Install bspwm and sxhkd
 sudo apt install bspwm sxhkd
 
+# Install feh
+sudo apt install feh
+
 # Install rofi (+ greenclip)
 sudo apt install rofi
 
