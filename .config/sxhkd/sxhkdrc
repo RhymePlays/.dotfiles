@@ -50,7 +50,7 @@ super + alt + 1
 # Run File Manager
 # super + alt + 2
 # 	ls
-	
+
 # Run VSCode
 super + alt + 3 
 	code
@@ -62,6 +62,21 @@ super + {_, shift + } w
 # Open Clipboard Manager
 # super + v
 #	clipboard
+
+
+
+
+
+# ------------------------------- #
+### M E D I A - C O N T R O L S ###
+# ------------------------------- #
+
+# Volume Up
+XF86AudioRaiseVolume
+	pactl set-sink-volume 0 +5%
+# Volume Down
+XF86AudioLowerVolume
+	pactl set-sink-volume 0 -5%
 
 
 

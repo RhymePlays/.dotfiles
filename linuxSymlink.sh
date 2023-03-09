@@ -1,6 +1,6 @@
-###
-### DONT RUN WITH SUDO!!
-###
+# ------------------------ #
+### DONT RUN WITH SUDO!! ###
+# ------------------------ #
 
 # Link .gitconfig
 sudo ln ~/.dotfiles/.gitconfig ~/.gitconfig
@@ -16,6 +16,12 @@ sudo ln -s ~/.dotfiles/.config/sxhkd ~/.config/sxhkd
 
 # Link Polybar config
 sudo ln -s ~/.dotfiles/.config/polybar ~/.config/polybar
+
+# Link Picom
+sudo ln -s ~/.dotfiles/.config/picom ~/.config/picom
+
+# Link Alacritty
+sudo ln -s ~/.dotfiles/.config/alacritty ~/.config/alacritty
 
 # Link Rofi
 sudo ln -s ~/.dotfiles/.config/rofi ~/.config/rofi

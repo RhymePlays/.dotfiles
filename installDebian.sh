@@ -1,3 +1,7 @@
+# ------------------------ #
+### DONT RUN WITH SUDO!! ###
+# ------------------------ #
+
 # Install Chrome
 sudo apt install google-chrome-stable
 
@@ -22,8 +26,14 @@ sudo snap install p7zip-desktop
 # Install mpv
 sudo apt install mpv
 
+# Install XOrg
+sudo apt install xorg 
+
 # Install bspwm and sxhkd
 sudo apt install bspwm sxhkd
+
+# Install PulseAudio
+sudo apt install pulseaudio
 
 # Install feh
 sudo apt install feh
@@ -33,6 +43,9 @@ sudo apt install rofi
 
 # Install Polybar
 sudo apt install polybar
+
+# Install Playerctl
+#sudo apt install playerctl 
 
 # Install LF?
 
