@@ -43,26 +43,25 @@ super + {Return, t}
 super + r
 	rofi -show run
 
-# Run Chrome
-super + alt + 1 
-	google-chrome
-
-# Run File Manager
-# super + alt + 2
-# 	ls
-
-# Run VSCode
-super + alt + 3 
-	code
-
 # Close Focused Window
 super + {_, shift + } w
 	bspc node -{c, k}
 
 # Open Clipboard Manager
-# super + v
-#	clipboard
+super + v
+	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
+# Take Screenshot
+Print
+	flameshot gui
+
+# Run Chrome
+super + alt + 1
+	google-chrome
+
+# Run VSCode
+super + alt + 2
+	code
 
 
 

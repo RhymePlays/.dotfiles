@@ -26,8 +26,11 @@ sudo ln -s ~/.dotfiles/.config/alacritty ~/.config/alacritty
 # Link Rofi
 sudo ln -s ~/.dotfiles/.config/rofi ~/.config/rofi
 
+# Stalonetray
+sudo ln -s ~/.dotfiles/.config/stalonetray/ ~/.config/stalonetray
+
 # Link Greenclip-Rofi
-#sudo ln ~/.dotfiles/.config/greenclip.toml ~/.config/greenclip.toml
+sudo ln ~/.dotfiles/.config/greenclip.toml ~/.config/greenclip.toml
 
 # Link neovim config
 

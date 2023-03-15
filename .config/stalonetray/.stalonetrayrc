@@ -1,0 +1,9 @@
+geometry 1x1+10+35
+max_geometry 5x5+10+35
+
+grow_gravity NE
+dockapp_mode none
+
+background "#f48fb1"
+icon_size 23
+slot_size 29

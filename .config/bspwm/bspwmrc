@@ -31,10 +31,18 @@ pkill "polybar"
 polybar rhymebar --config=~/.config/polybar/config.ini &
 
 # Picom
-picom &
+# picom &
 
 # Cursor
 xsetroot -cursor_name left_ptr
+
+# Greenclip
+pkill "greenclip"
+greenclip daemon &
+
+# Flamshot
+pkill "flameshot"
+flameshot &
 
 
 
