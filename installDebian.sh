@@ -44,6 +44,9 @@ sudo apt install rofi
 # Install Polybar
 sudo apt install polybar
 
+# Install stalonetray
+sudo apt install stalonetray
+
 # Install Playerctl
 #sudo apt install playerctl 
 
