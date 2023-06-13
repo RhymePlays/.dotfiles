@@ -3,10 +3,11 @@
 # ------------------------ #
 
 # Install Chrome
-sudo apt install google-chrome-stable
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 
 # Install microsoft fonts for the web
-sudo apt install ~/.dotfiles/debianSpecfic/ttf-mscorefonts-installer_3.8_all.deb
+sudo apt install ttf-mscorefonts-installer
 
 # Install Snap
 sudo apt install snapd
@@ -50,13 +51,17 @@ sudo apt install stalonetray
 # Install Playerctl
 #sudo apt install playerctl 
 
-# Install LF?
+# Install LF
+sudo apt install nnn
 
 # Install FDM
 sudo apt install freedownloadmanager
 
 # Install btop
 sudo snap install btop
+
+# Install Flameshot
+sudo apt install flameshot
 
 
 # Link .configs
