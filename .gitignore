@@ -1,4 +1,19 @@
+.config/dconf
 .config/mpv/watch_later
 .config/Code - OSS
+.config/discord
 .config/pulse
-grubTheme
+.config/obs-studio
+.config/google-chrome
+.config/BraveSoftware
+.config/autostart
+.config/go
+.config/ags
+.config/hyprpanel
+.config/eww
+.config/btop
+.config/yay
+.config/Softdeluxe
+.config/nwg-look
+.config/gtk-3.0
+.config/xsettingsd

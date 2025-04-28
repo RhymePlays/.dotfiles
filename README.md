@@ -1,22 +1,33 @@
-## Isfar Tausif's Awesome Dotfiles. 
-
-## Programs
-| #ID | Program       | .dotfile        |
-| --- | ------------- | --------------- |
-|   0 | git           | /.gitconfig     |
-|   1 | mpv           | /.config/mpv/*  |
-
-## Linux Installation
-If installing on **Debian**
-0. Make sure the .dotfiles folder resides in your home directory.
-1. Open `/etc/apt/sources.list`
-2. Add `contrib` `non-free` after `deb http://deb.debian.org/debian/ <version-codename> main`
-3. It should look similar to this `deb http://deb.debian.org/debian/ bullseye main contrib non-free`
-4. Save the file.
-6. Run `sudo apt update` as root
-5. Run `sudo installDebian.sh` as root
-
-## Windows Installation
-- git `mklink "<user-directory>\.gitconfig" ".dotfiles\.gitconfig"`
-- mpv `mklink /d "<mpv.exe-directory>\portable_config" ".dotfiles/.config/mpv"`
--
+# Programs
+| Type | Program | .dotfiles |
+|------|---------|-----------|
+| Terminal | kitty | .config/kitty |
+| Statusline | oh-my-posh | .config/oh-my-posh |
+| Fetch | fastfetch | .config/fastfetch |
+| Editor | neovim | .config/neovim |
+| File Manager | nnn | .config/nnn |
+| Fonts | HackNF, Noto | .config/swww |
+| Icons | Papirus | .config/swww |
+| Task Manager | btop | N/A |
+| WM | Hyprland | .config/hypr |
+| Wallpaper | swww | .config/swww |
+| Cursor | Furina 2.0 | .icons/Furina |
+| Status Bar | waybar | .config/waybar |
+| Idle Manager | hypridle | .config/hypr |
+| Lockscreen | hyprlock | .config/hypr |
+| Launcher | rofi-wayland | .config/rofi |
+| GTK QT Theme Manager | nwg-look | N/A |
+| Web Browser | firefox |  |
+| Download Manager | freedownloadmanager | N/A |
+| Clipboard | cliphist | N/A |
+| Emoji | rofimoji | N/A |
+| Notification | dunst | .config/dunst |
+| Bluetooth | bluez bluez-utils | N/A |
+| Bluetooth GUI | rofi-bluetooth | N/A |
+| Screenshot | grim | N/A |
+| Video Recorder | obs-studio | N/A |
+| Media Player | mpv | .config/mpv |
+| Player Controller | playerctl | N/A |
+| Audio Backend | pipewire, pipewire-pulse, wireplumber | N/A |
+| Audio GUI |  |  |
+| Network Manager | networkmanager | N/A |

@@ -71,8 +71,9 @@ rm -r $HOMEDIR/themes
 # Packages #
 ############
 
-pacman -Syu base base-devel networkmanager reflector sudo git man unzip nnn neovim fastfetch btop unzip playerctl cliphist    #CLI Packages
-pacman -Syu pipewire pipewire-pulse wireplumber bluez bluez-utils    #Driver Packages
-pacman -Syu papurus-icon-theme noto-fonts noto-fonts-cjk ttf-hack-nerd nwg-look mpv vscode feh hyprland hyprpaper waybar wofi alacritty dunst    #GUI Packages
+pacman -Syu base base-devel networkmanager reflector sudo git man unzip nnn neovim fastfetch btop playerctl cliphist    #CLI Packages
+pacman -Syu pipewire pipewire-pulse wireplumber bluez bluez-utils wtype openrgb    #Driver Packages
+pacman -Syu papurus-icon-theme noto-fonts noto-fonts-cjk ttf-hack-nerd nwg-look mpv vscode feh hyprland hypridle hyprlock swww waybar rofi-wayland rofimoji dunst alacritty obs-studio    #GUI Packages
 
-# yay freedownloadmanager stalonetray waydroid qt5-wayland qt6-wayland 
+yay -S freedownloadmanager rofi-bluetooth-git opentabletdrivers
+# yay -S stalonetray waydroid qt5-wayland qt6-wayland
